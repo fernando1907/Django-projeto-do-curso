@@ -94,7 +94,7 @@ class RegisterForm(forms.ModelForm):
                 code='invalid'
             )
             raise ValidationError({
-                'password': [password_confirmation_error],
+                'password': password_confirmation_error,
                 'password2': [
                     password_confirmation_error,
                 ],

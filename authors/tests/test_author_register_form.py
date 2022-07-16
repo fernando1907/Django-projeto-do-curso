@@ -133,7 +133,7 @@ class AuthorRegisterFormIntegrationTest(DjangoTestCase):
         self.form_data['password'] = '@A123abc123'
         self.form_data['password2'] = '@A123abc123'
 
-        url = reverse('authors:create')
+        url = reverse('authors:register_create')
         response = self.client.post(url, data=self.form_data, follow=True)
 
         self.assertNotIn(msg, response.content.decode('utf-8'))
