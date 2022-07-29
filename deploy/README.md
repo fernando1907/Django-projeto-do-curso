@@ -77,7 +77,7 @@ GRANT ALL PRIVILEGES ON DATABASE basededados TO usuario;
 # Saindo
 \q
 sudo systemctl restart postgresql
-```
+##
 
 Caso queira mais detalhes: https://youtu.be/VLpPLaGVJhI  
 Mais avançado: https://youtu.be/FZaEukN_raA
