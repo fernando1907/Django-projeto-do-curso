@@ -88,3 +88,5 @@ Mais avançado: https://youtu.be/FZaEukN_raA
 git config --global user.name 'Seu nome'
 git config --global user.email 'seu_email@gmail.com'
 git config --global init.defaultBranch main
+
+###teste
